@@ -1,0 +1,26 @@
+{
+  "name": "jsfilelogger",
+  "version": "1.0.0",
+  "description": "Logs Node.js data to file and console",
+  "main": "jsfilelogger.js",
+  "scripts": {
+    "test": "log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delphren-Phox/JSFileLogger.git"
+  },
+  "keywords": [
+    "filelogger",
+    "loggingsystem"
+  ],
+  "author": "Delphren Phox",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Delphren-Phox/JSFileLogger/issues"
+  },
+  "homepage": "https://github.com/Delphren-Phox/JSFileLogger#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
