@@ -39,7 +39,7 @@ client.login(auth.BOT_TOKEN);
 if(!fs.existsSync("logs")){
     fs.mkdirSync("logs", 0766, function(err){
         if(err){
-            console.log(err);
+            log(err);
             // echo the result back
             response.send("ERROR! Can't make the directory! \n");
         }
