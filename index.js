@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const config = require("./config.json");
+const auth = require("./auth.json");
 
 const client = new Discord.Client();
 
@@ -23,6 +23,10 @@ client.on("message", function(message) {
     const sum = numArgs.reduce((counter, x) => counter += x);
     message.reply(`The sum of all the arguments you provided is ${sum}!`);
   }
+
+  else if (command === "burn") {
+    const 
+  }
 });
 
-client.login(config.BOT_TOKEN);
+client.login(auth.BOT_TOKEN);
