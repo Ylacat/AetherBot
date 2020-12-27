@@ -1,0 +1,20 @@
+{
+	"invite":{
+		"name":"Invite",
+		"command":"g-invite",
+		"description":"Sends the bot invite and bot server invite",
+		"syntax":"g-invite"
+	},
+	"ping":{
+		"name":"Ping",
+		"command":"g-ping",
+		"description":"Pong",
+		"syntax":"g-ping"
+	},
+	"help":{
+		"name":"Help",
+		"command":"g-help",
+		"description":"Helps you with commands",
+		"syntax":"g-help (optional>command name)"
+	}
+}
