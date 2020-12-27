@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Ylacat/AetherBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security"
   }
 }
