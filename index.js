@@ -3,7 +3,7 @@ const auth = require("./auth.json");
 fs = require('fs');
 const startTime = new Date ();
 
-const client = new Discord.Client();
+const client = new Discord.Client({ presence:({ activity: {name: "!burn"},status: "online"})});
 
 const prefix = "!";
 
@@ -29,7 +29,7 @@ client.on("message", function(message) {
   }
 
   else if (command === "burn") {
-    message.channel.send("Burn Baby!", {files: ["./assets/fire.gif"]});
+    message.reply("Burn Baby!", {files: ["./assets/fire.gif"]});
   }
   
 });
