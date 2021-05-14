@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const auth = require("./auth.json");
-fs = require('fs');
+var fs = require('graceful-fs');
 const startTime = new Date ();
 
 const client = new Discord.Client({ presence:({ activity: {name: "!burn"},status: "online"})});
